@@ -1,0 +1,15 @@
+# Maven 
+target
+
+# Eclipse 
+.checkstyle
+.classpath
+.project
+.settings
+
+# Vim
+*.swp
+
+# gedit 
+*~
+

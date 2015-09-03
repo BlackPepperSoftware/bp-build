@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<templates>
+
+	<template name="block" description="block comment" context="java-members" autoinsert="true" deleted="false" enabled="true">// ----------------------------------------------------------------------------------------------------------------
+// ${comment}
+// ----------------------------------------------------------------------------------------------------------------
+
+${cursor}</template>
+
+	<template name="before" description="test before (JUnit 4)" context="java-members" autoinsert="true" deleted="false" enabled="true">@${testType:newType(org.junit.Before)}
+public void setUp() {
+	${cursor}
+}</template>
+
+	<template name="after" description="test after (JUnit 4)" context="java-members" autoinsert="true" deleted="false" enabled="true">@${testType:newType(org.junit.After)}
+public void tearDown() {
+	${cursor}
+}</template>
+
+	<template id="org.eclipse.jdt.ui.templates.test_junit4" name="test" description="test method (JUnit 4)" context="java-members" autoinsert="false" deleted="false" enabled="true">@${testType:newType(org.junit.Test)}
+public void ${testName}() {
+	${cursor}
+}</template>
+
+</templates>
