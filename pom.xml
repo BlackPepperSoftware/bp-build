@@ -10,10 +10,10 @@
 	<name>Black Pepper Build</name>
 
 	<scm>
-		<connection>scm:git:git@codebasehq.com:blackpepper/bp/bp-build.git</connection>
-		<developerConnection>scm:git:git@codebasehq.com:blackpepper/bp/bp-build.git</developerConnection>
+		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-build.git</connection>
+		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-build.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://blackpepper.codebasehq.com/bp/bp-build.git</url>
+		<url>https://github.com/BlackPepperSoftware/bp-build</url>
 	</scm>
 	
 	<properties>
