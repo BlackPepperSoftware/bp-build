@@ -125,6 +125,17 @@
 					<version>2.15</version>
 				</plugin>
 
+				<plugin>
+					<groupId>org.sonatype.plugins</groupId>
+					<artifactId>nexus-staging-maven-plugin</artifactId>
+					<version>1.6.6</version>
+					<configuration>
+						<serverId>sonatype-nexus-staging</serverId>
+						<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+						<autoReleaseAfterClose>true</autoReleaseAfterClose>
+					</configuration>
+				</plugin>
+
 			</plugins>
 		
 		</pluginManagement>
@@ -155,6 +166,12 @@
 				</executions>
 			</plugin>
 			
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<extensions>true</extensions>
+			</plugin>
+			
 		</plugins>
 	
 	</build>
@@ -162,15 +179,15 @@
 	<distributionManagement>
 	
 		<repository>
-			<id>blackpepper-releases</id>
-			<name>Black Pepper Release Repository</name>
-			<url>http://nexus-local:8081/nexus/content/repositories/releases</url>
+			<id>sonatype-nexus-staging</id>
+			<name>Sonatype Nexus Staging Repository</name>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	
 		<snapshotRepository>
-			<id>blackpepper-snapshots</id>
-			<name>Black Pepper Snapshot Repository</name>
-			<url>http://nexus-local:8081/nexus/content/repositories/snapshots</url>
+			<id>sonatype-nexus-snapshots</id>
+			<name>Sonatype Nexus Snapshot Repository</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	
 	</distributionManagement>
