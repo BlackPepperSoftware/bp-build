@@ -11,6 +11,18 @@
 	<description>Build resources for Black Pepper projects.</description>
 	<url>https://github.com/BlackPepperSoftware/bp-build</url>
 
+	<developers>
+	
+		<developer>
+			<id>mark.hobson</id>
+			<name>Mark Hobson</name>
+			<email>mark.hobson@blackpepper.co.uk</email>
+			<organization>Black Pepper Software</organization>
+			<organizationUrl>http://www.blackpepper.co.uk/</organizationUrl>
+		</developer>
+		
+	</developers>
+
 	<scm>
 		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-build.git</connection>
 		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-build.git</developerConnection>
