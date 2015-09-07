@@ -10,6 +10,7 @@
 	<name>Black Pepper Build</name>
 	<description>Build resources for Black Pepper projects.</description>
 	<url>https://github.com/BlackPepperSoftware/bp-build</url>
+	<inceptionYear>2014</inceptionYear>
 
 	<organization>
 		<name>Black Pepper Software</name>
