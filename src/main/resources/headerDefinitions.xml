@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--
+	License Maven Plugin header definition customisations.
+	
+	Based upon:
+	https://github.com/mycila/license-maven-plugin/blob/master/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/header/HeaderType.java
+-->
 <additionalHeaders>
+
+	<!-- Java comment style (in contrast to JavaDoc comment style) -->
 	
 	<java_style>
 		<firstLine>/*</firstLine>
@@ -15,6 +23,8 @@
 		<padLines>false</padLines>
 	</java_style>
 	
+	<!-- Script comment style (customised to remove first and end lines) -->
+	
 	<script_style>
 		<!-- <firstLine></firstLine> -->
 		<beforeEachLine># </beforeEachLine>
@@ -27,6 +37,8 @@
 		<isMultiline>false</isMultiline>
 		<padLines>false</padLines>
 	</script_style>
+	
+	<!-- XML comment style (customised to remove first and end newlines) -->
 	
 	<xml_style>
 		<firstLine><![CDATA[<!--]]></firstLine>
