@@ -33,4 +33,36 @@
 	
 	</servers>
 	
+	<profiles>
+	
+		<profile>
+			<id>ci</id>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>sonatype-nexus-snapshots</id>
+					<name>Sonatype Nexus Snapshot Repository</name>
+					<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+			<repositories>
+				<repository>
+					<id>sonatype-nexus-snapshots</id>
+					<name>Sonatype Nexus Snapshot Repository</name>
+					<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+			</repositories>
+		</profile>
+	
+	</profiles>
+	
+	<activeProfiles>
+		<activeProfile>ci</activeProfile>
+	</activeProfiles>
+	
 </settings>
