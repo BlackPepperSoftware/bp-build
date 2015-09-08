@@ -54,6 +54,16 @@
 		
 	</developers>
 
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/BlackPepperSoftware/bp-build/issues</url>
+	</issueManagement>
+	
+	<ciManagement>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/BlackPepperSoftware/bp-build</url>
+	</ciManagement>
+	
 	<scm>
 		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-build.git</connection>
 		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-build.git</developerConnection>
