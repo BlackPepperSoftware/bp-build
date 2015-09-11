@@ -8,7 +8,7 @@ Configuring Eclipse
 
 To configure Eclipse for Black Pepper projects:
 
-1. Checkout the project: ```git clone git@github.com:BlackPepperSoftware/bp-build.git.git```
+1. Checkout the project: `git clone git@github.com:BlackPepperSoftware/bp-build.git.git`
 1. Open Eclipse
 1. Select 'File -> Import...'
 1. Select 'General > Preferences'
@@ -33,8 +33,8 @@ Configuring IDEA
 
 To configure IntelliJ IDEA for Black Pepper projects:
 
-1. Checkout the project: ```git clone git@github.com:BlackPepperSoftware/bp-build.git.git```
-1. Build the settings jar: ```cd bp-build/src/main/config && ./make-jar.sh```
+1. Checkout the project: `git clone git@github.com:BlackPepperSoftware/bp-build.git.git`
+1. Build the settings jar: `cd bp-build/src/main/config && ./make-jar.sh`
 1. Open IDEA
 1. Select 'Import Settings..."
 1. Select `bp-build/src/main/config/settings.jar`
