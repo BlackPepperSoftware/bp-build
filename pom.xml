@@ -20,7 +20,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.co.blackpepper</groupId>
 	<artifactId>bp-build</artifactId>
-	<version>1.1.1-SNAPSHOT</version>
+	<version>1.2.0-SNAPSHOT</version>
 	
 	<name>Black Pepper Build</name>
 	<description>Build resources for Black Pepper projects.</description>
