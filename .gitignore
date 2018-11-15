@@ -7,6 +7,10 @@ target
 .project
 .settings
 
+# IDEA
+.idea
+*.iml
+
 # Vim
 *.swp
 
