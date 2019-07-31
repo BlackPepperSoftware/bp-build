@@ -41,6 +41,7 @@ To configure IntelliJ IDEA for Black Pepper projects:
 1. Click 'OK'
 1. Click 'OK'
 1. Click 'OK' to restart IDEA
+1. Select the "Black Pepper" scheme in IDEA for your project (Settings -> Code Style -> Java -> Scheme -> "Black Pepper")
 
 License
 -------
