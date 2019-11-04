@@ -261,6 +261,8 @@
 			<property name="option" value="bottom"/>
 			<property name="groups" value="java, javax, org, com"/>
 			<property name="separated" value="true"/>
+			<property name="separatedStaticGroups" value="true"/>
+			<property name="staticGroups" value="java, javax, org, com"/>
 		</module>
 		
 		<!-- <module name="ImportControl"/> -->
