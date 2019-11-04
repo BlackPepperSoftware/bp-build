@@ -20,7 +20,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.co.blackpepper</groupId>
 	<artifactId>bp-build</artifactId>
-	<version>1.3.0-SNAPSHOT</version>
+	<version>1.3.0</version>
 	
 	<name>Black Pepper Build</name>
 	<description>Build resources for Black Pepper projects.</description>
@@ -67,7 +67,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-build.git</connection>
 		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-build.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>1.3.0</tag>
 		<url>https://github.com/BlackPepperSoftware/bp-build</url>
 	</scm>
 	
